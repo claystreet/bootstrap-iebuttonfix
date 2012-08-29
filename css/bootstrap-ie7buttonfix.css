@@ -1,0 +1,77 @@
+/* Normal button */
+.btn {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0) progid:dximagetransform.microsoft.dropshadow(color='#ffd0d0d0', offX=1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ffd0d0d0', offX=-1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ffd0d0d0', offX=0, offY=-1) progid:dximagetransform.microsoft.dropshadow(color='#ffb8b8b8', offX=0, offY=1);
+}
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffe6e6e6', endColorstr='#ffe6e6e6', GradientType=0) progid:dximagetransform.microsoft.dropshadow(color='#ffd0d0d0', offX=1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ffd0d0d0', offX=-1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ffd0d0d0', offX=0, offY=-1) progid:dximagetransform.microsoft.dropshadow(color='#ffb8b8b8', offX=0, offY=1);
+}
+/* Primary button */
+.btn-primary {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0) progid:dximagetransform.microsoft.dropshadow(color='#ff0062b8', offX=1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff0062b8', offX=-1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff0062b8', offX=0, offY=-1) progid:dximagetransform.microsoft.dropshadow(color='#ff01529A', offX=0, offY=1);
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0044cc', endColorstr='#ff0044cc', GradientType=0) progid:dximagetransform.microsoft.dropshadow(color='#ff0062b8', offX=1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff0062b8', offX=-1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff0062b8', offX=0, offY=-1) progid:dximagetransform.microsoft.dropshadow(color='#ff01529A', offX=0, offY=1);
+}
+/* Warning button */
+.btn-warning {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0) progid:dximagetransform.microsoft.dropshadow(color='#ffe1962d', offX=1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ffe1962d', offX=-1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ffe1962d', offX=0, offY=-1) progid:dximagetransform.microsoft.dropshadow(color='#ffbc7e26', offX=0, offY=1);
+}
+.btn-warning:hover,
+.btn-warning:active,
+.btn-warning.active,
+.btn-warning.disabled,
+.btn-warning[disabled] {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fff89406', endColorstr='#fff89406', GradientType=0) progid:dximagetransform.microsoft.dropshadow(color='#ffe1962d', offX=1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ffe1962d', offX=-1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ffe1962d', offX=0, offY=-1) progid:dximagetransform.microsoft.dropshadow(color='#ffbc7e26', offX=0, offY=1);
+}
+/* Danger button */
+.btn-danger {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0) progid:dximagetransform.microsoft.dropshadow(color='#ffc44741', offX=1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ffc44741', offX=-1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ffc44741', offX=0, offY=-1) progid:dximagetransform.microsoft.dropshadow(color='#ffa43c37', offX=0, offY=1);
+}
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffbd362f', endColorstr='#ffbd362f', GradientType=0) progid:dximagetransform.microsoft.dropshadow(color='#ffc44741', offX=1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ffc44741', offX=-1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ffc44741', offX=0, offY=-1) progid:dximagetransform.microsoft.dropshadow(color='#ffa43c37', offX=0, offY=1);
+}
+/* Success button */
+.btn-success {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0) progid:dximagetransform.microsoft.dropshadow(color='#ff52a552', offX=1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff52a552', offX=-1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff52a552', offX=0, offY=-1) progid:dximagetransform.microsoft.dropshadow(color='#ff458a45', offX=0, offY=1);
+}
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff51a351', endColorstr='#ff51a351', GradientType=0) progid:dximagetransform.microsoft.dropshadow(color='#ff52a552', offX=1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff52a552', offX=-1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff52a552', offX=0, offY=-1) progid:dximagetransform.microsoft.dropshadow(color='#ff458a45', offX=0, offY=1);
+}
+/* Info button */
+.btn-info {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0) progid:dximagetransform.microsoft.dropshadow(color='#ff419db8', offX=1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff419db8', offX=-1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff419db8', offX=0, offY=-1) progid:dximagetransform.microsoft.dropshadow(color='#ff37849a', offX=0, offY=1);
+}
+.btn-info:hover,
+.btn-info:active,
+.btn-info.active,
+.btn-info.disabled,
+.btn-info[disabled] {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff2f96b4', endColorstr='#ff2f96b4', GradientType=0) progid:dximagetransform.microsoft.dropshadow(color='#ff419db8', offX=1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff419db8', offX=-1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff419db8', offX=0, offY=-1) progid:dximagetransform.microsoft.dropshadow(color='#ff37849a', offX=0, offY=1);
+}
+/* Inverse button */
+.btn-inverse {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0) progid:dximagetransform.microsoft.dropshadow(color='#ff303030', offX=1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff303030', offX=-1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff303030', offX=0, offY=-1) progid:dximagetransform.microsoft.dropshadow(color='#ff292929', offX=0, offY=1);
+}
+.btn-inverse:hover,
+.btn-inverse:active,
+.btn-inverse.active,
+.btn-inverse.disabled,
+.btn-inverse[disabled] {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff222222', GradientType=0) progid:dximagetransform.microsoft.dropshadow(color='#ff303030', offX=1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff303030', offX=-1, offY=0) progid:dximagetransform.microsoft.dropshadow(color='#ff303030', offX=0, offY=-1) progid:dximagetransform.microsoft.dropshadow(color='#ff292929', offX=0, offY=1);
+}
