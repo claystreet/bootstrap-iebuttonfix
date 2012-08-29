@@ -1,14 +1,14 @@
 #Bootstrap Buttons: Gradient and Border Fix for IE7 and IE8
 
-### This code if offered by [Clay Street Online](http://www.claystreet.com) under an MIT-License
+**This code if offered by [Clay Street Online](http://www.claystreet.com) under an MIT-License**
 
 ## Screenshots of Bootstrap Buttons:
 
-**Internet Explorer 7***
+**Internet Explorer 7**
 
 ![Screenshot of IE7 Bootstrap Buttons](http://www.claystreet.com/sites/claystreet/dev/bootstrap/iebutton-fix/img/ie7-buttons.png)
 
-**Internet Explorer 8***
+**Internet Explorer 8**
 
 ![Screenshot of IE8 Bootstrap Buttons](http://www.claystreet.com/sites/claystreet/dev/bootstrap/iebutton-fix/img/ie8-buttons.png)
 
@@ -18,23 +18,23 @@
 
 
 ##IE Button Styling: Problem Summary
--IE7 doesn't support CSS button border styling, standard gradients, or rounded corners. 
+- IE7 doesn't support CSS button border styling, standard gradients, or rounded corners. 
 
- *The solution:*
+  *The solution:*
     - Use an IE specific gradient filter to create a gradient. 
     - Use IE specific DropShadow filters to create a border. 
     
--IE8 supports CSS button border styling but NOT standard gradients or rounded corners. 
+- IE8 supports CSS button border styling but NOT standard gradients or rounded corners. 
 
- *The solution:*
+  *The solution:*
     - Use an IE specific gradient filter to create a gradient. 
     - Do NOT use IE specific DropShadow filters since the border is properly CSS styled. 
 
--IE9 supports CSS button border styling and rounded corners but NOT standard gradients.
- HOWEVER, IE9 does NOT contain the IE specific background gradient filter within the
- rounded corners. 
+- IE9 supports CSS button border styling and rounded corners but NOT standard gradients.
+  HOWEVER, IE9 does NOT contain the IE specific background gradient filter within the
+  rounded corners. 
  
- *The solution:*
+  *The solution:*
     - Drop the IE specific gradient filter in favor of the rounded corners. 
     - Do NOT use DropShadow filters since the border is properly CSS styled. 
     - NOTE: What you end up with on IE9+ is the standard Bootstrap styling
