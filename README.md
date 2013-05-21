@@ -1,6 +1,6 @@
 #Bootstrap Buttons: Gradient and Border Fix for IE7 and IE8
 
-**This code is provided by [Clay Street Online](http://www.claystreet.com) under an MIT-License**
+**Provided by [Clay Street Online](http://www.claystreet.com) under an MIT License**
 
 ## Screenshots of Bootstrap Buttons:
 
